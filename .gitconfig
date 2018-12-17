@@ -1,0 +1,8 @@
+[diff "pandoc"]
+  textconv=pandoc --to=markdown
+  prompt = false
+[alias]
+  wdiff = diff --word-diff=color --unified=1
+
+#git wdiff important_file.docx
+#git log -p --word-diff=color important_file.docx
